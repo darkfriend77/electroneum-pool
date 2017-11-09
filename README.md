@@ -75,7 +75,7 @@ Usage
 
 #### Requirements
 * Coin daemon(s) (find the coin's repo and build latest version from source)
-* [Node.js](http://nodejs.org/) v0.10.48 ([follow these installation instructions](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager))
+* [Node.js](http://nodejs.org/) v0.10.48 ([follow these installation instructions](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)) ```sudo tar -C /usr/local --strip-components 1 -xzf node-v0.10.48-linux-x64.tar.gz```
 * [Redis](http://redis.io/) key-value store v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
 * libssl required for the node-multi-hashing module
   * For Ubuntu: `sudo apt-get install libssl-dev`
@@ -98,7 +98,7 @@ you are using - a good place to start with redis is [data persistence](http://re
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
 ```bash
-git clone https://github.com/electroneum/electroneum-pool.git pool
+git clone https://github.com/darkfriend77/electroneum-pool.git pool
 cd pool
 npm update
 ```
