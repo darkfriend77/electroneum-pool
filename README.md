@@ -80,7 +80,8 @@ Usage
     ```sudo tar -C /usr/local --strip-components 1 -xzf node-v0.10.48-linux-x64.tar.gz```
 * [Redis](http://redis.io/) key-value store v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
   * For Ubuntu: 
-    ```wget http://download.redis.io/redis-stable.tar.gz
+    ```
+    wget http://download.redis.io/redis-stable.tar.gz
     tar xvzf redis-stable.tar.gz
     cd redis-stable
     make```
