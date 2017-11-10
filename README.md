@@ -94,11 +94,13 @@ Usage
     ```
 * libssl required for the node-multi-hashing module
   * For Ubuntu: 
-    ```sudo apt-get install libssl-dev
+    ```
+    sudo apt-get install libssl-dev
     ```
 * Boost is required for the cryptonote-util module
   * For Ubuntu: 
-    ```sudo apt-get install libboost-all-dev
+    ```
+    sudo apt-get install libboost-all-dev
     ```
 
 
