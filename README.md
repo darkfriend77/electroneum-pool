@@ -77,15 +77,14 @@ Usage
 * Coin daemon(s) (find the coin's repo and build latest version from source)
 * [Node.js](http://nodejs.org/) v0.10.48 ([follow these installation instructions](https://github.com/joyent/node/wiki/Installing-Node.js-via-package-manager)) 
   * For Ubuntu:
-    ```wget https://nodejs.org/download/release/v0.10.48/node-v0.10.48-linux-x64.tar.gz
-    sudo tar -C /usr/local --strip-components 1 -xzf node-v0.10.48-linux-x64.tar.gz```
+    `wget https://nodejs.org/download/release/v0.10.48/node-v0.10.48-linux-x64.tar.gz
+    sudo tar -C /usr/local --strip-components 1 -xzf node-v0.10.48-linux-x64.tar.gz`
 * [Redis](http://redis.io/) key-value store v2.6+ ([follow these instructions](http://redis.io/topics/quickstart))
   * For Ubuntu: 
-    ```
-    wget http://download.redis.io/redis-stable.tar.gz
+    `wget http://download.redis.io/redis-stable.tar.gz
     tar xvzf redis-stable.tar.gz
     cd redis-stable
-    make```
+    make`
 * libssl required for the node-multi-hashing module
   * For Ubuntu: 
     `sudo apt-get install libssl-dev`
