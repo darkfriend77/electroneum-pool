@@ -94,10 +94,12 @@ Usage
     ```
 * libssl required for the node-multi-hashing module
   * For Ubuntu: 
-    `sudo apt-get install libssl-dev`
+    ```sudo apt-get install libssl-dev
+    ```
 * Boost is required for the cryptonote-util module
   * For Ubuntu: 
-    `sudo apt-get install libboost-all-dev`
+    ```sudo apt-get install libboost-all-dev
+    ```
 
 
 ##### Seriously
@@ -114,7 +116,8 @@ you are using - a good place to start with redis is [data persistence](http://re
 
 Clone the repository and run `npm update` for all the dependencies to be installed:
 
-```bash
+```
+sudo apt-get install git
 git clone https://github.com/darkfriend77/electroneum-pool.git pool
 cd pool
 npm update
